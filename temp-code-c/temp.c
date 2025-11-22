@@ -5,7 +5,13 @@
 #include "../lib/conio/conio.c"
 
 /* Enum */
-enum Weather {Sunny, Rain, Darkness, Lightness, Cold};
+enum Weather {
+    Sunny,
+    Rain,
+    Darkness,
+    Lightness,
+    Cold
+};
 
 /* Main func */
 int main() {
