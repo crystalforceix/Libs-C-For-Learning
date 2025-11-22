@@ -3,11 +3,16 @@
 #include "../lib/conio/conio.h"
 #include "../lib/conio/conio.c"
 
-void main() {
-  float lk2, bl, n, lk1;
-  printf("Nhap lan luot so lieu vao day: (bl, n, lk1) --> ");
-  scanf("%f%f%f", &bl, &n, &lk1);
-  lk2 = bl * n / 26;
-  lk2 = lk2 - lk1;
-  printf("lk = %f", lk2);
+int main() {
+  enum {T0, T1, T2};
+  enum day {cn, thu2, thu3, thu4, thu5, thu6, thu7} n1;
+  enum day n2;
+  int i, j = 2000, k = T2;
+  clrscr();
+  i = thu7;
+  n1 = -1000;
+  n2 = j;
+  printf("\n n1 = %d  n2 = %d i = %d", n1, n2, i);
+  printf("\n k = %d T1 = %d", k, T1);
+  getch();
 }
